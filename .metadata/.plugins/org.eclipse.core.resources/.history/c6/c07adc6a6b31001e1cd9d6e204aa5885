@@ -1,0 +1,26 @@
+package principal;
+
+public class Variaveis {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+int numero = 10;
+//numero = 10;
+double decimal = 10.50;
+
+int testeNumero = (int) 50.25;
+double testeNovoNumero = 10;
+
+//aspas duplas para strings
+String nome = "Vanessa Avelar";
+//pas simples para char
+char sexo = 'F'
+
+System.out.println(numero);
+System.out.println(testeNumero);
+System.out.println(decimal);
+System.out.println(testeNovoNumero);
+
+	}
+
+}
