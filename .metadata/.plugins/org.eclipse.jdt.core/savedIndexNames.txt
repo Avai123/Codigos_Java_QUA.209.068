@@ -1,4 +1,2 @@
 INDEX VERSION 1.131+C:\Users\Aluno Tarde\Documents\Logica de Progamação_e_Java\.metadata\.plugins\org.eclipse.jdt.core
 1865797976.index
-1437585643.index
-2573973553.index
