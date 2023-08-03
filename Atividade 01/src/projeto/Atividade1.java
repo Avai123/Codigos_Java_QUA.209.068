@@ -34,6 +34,33 @@ public class Atividade1 {
 		
 		System.out.println(nome1 + nome2);
 		
+		System.out.println("*********************");
+		
+		System.out.println("correção");
+		
+		int numero3 = 10;
+		double numero4 = 20;
+		char opcao = 'S';
+		String mensagem = "boa Tarde!";
+		boolean valor = true;
+		
+		String nome3 = "Vanessa";
+		String sobrenome = "Avelar";
+		
+		System.out.println(numero3);
+		System.out.println(numero4);
+		System.out.println(opcao);
+		System.out.println(mensagem);
+		System.out.println(valor);
+		
+		// inicio da atividade 2
+		
+		System.out.println("Nome Completo: " + nome3 + " " + sobrenome);
+		
+		
+		
+		
+		
 		
 		
 		
