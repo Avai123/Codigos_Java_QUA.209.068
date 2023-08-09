@@ -8,11 +8,12 @@ public class Atividade03 {
 		
 		//3 Faça um programa que leia dois números e imprima o maior deles;
 		Scanner leia = new Scanner(System.in);
+	
 		
-		System.out.println ("Digite um número: ");
+		System.out.print ("Digite um número: ");
 		int numero1 = leia.nextInt();
 		
-		System.out.println ("Digite um número: ");
+		System.out.print ("Digite um número: ");
 		int numero2 = leia.nextInt();
 		
 		if (numero1 > numero2) {

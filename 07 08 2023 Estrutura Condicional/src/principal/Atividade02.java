@@ -10,14 +10,15 @@ public class Atividade02 {
 		Scanner leia = new Scanner(System.in);
 		int numero;
 		
-		System.out.println("Digite o numero:");
+	
+		System.out.print("Digite o numero para saber se é par ou ímpar:");
 		numero = leia.nextInt();
 		
 		if(numero % 2 == 0) {
-			System.out.println(numero +  " par.");
+			System.out.println(numero +  " é número par.");
 			
 		} else{
-			System.out.println("não é par");
+			System.out.println(numero + " não é número par.");
 		
 	}
 	}

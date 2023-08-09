@@ -10,7 +10,7 @@ public class Atividade01 {
 		Scanner leia = new Scanner(System.in);
 		int ano;
 		
-		System.out.println("Digite o ano:");
+		System.out.print("Digite o ano:");
 		ano = leia.nextInt();
 		
 		if(ano % 400 == 0) {
@@ -21,7 +21,9 @@ public class Atividade01 {
 			System.out.println(ano + " é bissexto.");
 		}
 		else{
-			System.out.println(ano + "não é bissexto");
+			System.out.println("não é bissexto");
+		}	
+			
 		}
 		
 		
@@ -36,10 +38,8 @@ public class Atividade01 {
 					
 		
 		
-		//5 Faça um programa que receba o sexo de um a pessoa e imprima na tela o sexo digitado;
 		
-		//6 Faça um programa que leia 4 notas de um e retorne a media, se a media for menor que 6 está reporvado, 
-	}
+		
 	
 
 }
