@@ -24,11 +24,11 @@ public class Atividade06 {
 			if (operacao == '+') {
 			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero + i);
 		}else if (operacao == '-') {
-			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero + i);
+			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero - i);
 		}else if (operacao == '/') {
-			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero + i);
+			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero / i);
 		}else if (operacao == '*') {
-			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero + i);
+			System.out.printf("%d %c %d = %d\n", numero, operacao, i, numero * i);
 		}
 	
 		

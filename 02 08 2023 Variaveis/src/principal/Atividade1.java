@@ -1,4 +1,4 @@
-package projeto;
+package principal;
 
 public class Atividade1 {
 	
