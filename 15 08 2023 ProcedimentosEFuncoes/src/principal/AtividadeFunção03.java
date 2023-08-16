@@ -3,13 +3,15 @@ package principal;
 import java.util.Scanner;
 
 public class AtividadeFunção03 {
+	
+	static double INSS = .05;
+	static double IRPF = .11;
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-
-		/*
-		 * Faça um programa que receba o salario e a quantidade de venda total que o
+		
+		 /* Faça um programa que receba o salario e a quantidade de venda total que o
 		 * vendedor fez no mes, e calcule o salario do mês. Há também o desconto de 5%
 		 * de inss e 11% de IRPF sobre o salario bruto. o vendedor possui o total de
 		 * venda acima de 20 mil no mês, ele recebe uma bonificação de 5% sobre o valor
@@ -24,39 +26,45 @@ public class AtividadeFunção03 {
 		 * 10.000 frase motivacional descontos 5% inss 11% IRRF
 		 */
 
-		System.out.print("Digite o valor do salário:R$  ");
-		double valorsalário = sc.nextDouble();
 
-		System.out.print("Digite o valor da venda:R$ ");
-		double valorvenda = sc.nextDouble();
-		double bonus = 0;
-		double IRRF = .11;
-		double INSS = .05;
+		
+		System.out.print("Digite o valor do salario bruto do vendedor: R$");
+		double salario = sc.nextDouble();
+		
+		System.out.print("Digite o valor de vendas do vendedor: R$");
+		double vendas = sc.nextDouble();
 
-		if (valorvenda > 20.000) {
-			bonus = valorvenda * .05;
-		} else if (valorvenda > 15.0000 && valorvenda < 20.000) {
-			bonus = valorvenda * .03;
-		} else if (valorvenda > 10.0000 && valorvenda < 15.000) {
-			bonus = valorvenda * .01;
-		} else if (valorvenda > 0 && valorvenda < 10.000) {
-			System.out.println("Vamos vender mais!");
-
+		
+		System.out.println("\n\n=-=-=-=-=-= Holerite =-=-=-=-=-=");
+		System.out.printf("Salario bruto: \n\tR$%.2f\n", salario);
+		System.out.printf("Bonificação:\n\t R$%.2f\n", calcularComissao(vendas));
+		System.out.printf("Descontos: \n\tINSS -R$%.2f \n\tIRPF -R$%.2f\n", (salario * INSS), (salario * IRPF));
+		System.out.printf("Salario final:\n\t R$%.2f", (salario + calcularComissao(vendas) - calcularImposto(salario)));
+		
+		if (calcularComissao(vendas) < 10000) {
+			System.out.println("\n\nNão desista, persistencia é a chave.");
 		}
-		System.out.println("O valor do bonus é: R$ " + bonus);
-		System.out.printf(" O valor do IRRF é:R$ %.2f\n", (valorsalário + bonus) * IRRF);
-		System.out.printf(" O valor do INSS é:R$ %.2f\n", (valorsalário + bonus) * INSS);
-		System.out.printf("O valor do Salário Liquido é:R$ %2f\n\n\n\n", (valorsalário + bonus) - IRRF - INSS);
 		
+		sc.close();
 		
-		
-		
-		System.out.println("       CONTRA CHEQUE        \n");
-		System.out.println("Salário:  R$ " + valorsalário);
-		System.out.println("Comissão: R$ " + bonus);
-		System.out.println("           IRRF: R$ " + (valorsalário + bonus) * IRRF);
-		System.out.println("           INSS: R$ " + (valorsalário + bonus) * INSS);
-		System.out.printf(                        "Valor Liquido: R$ %.2f " , (valorsalário + bonus) - IRRF - INSS);
 	}
-		
+
+	static double calcularImposto(double salarioBruto) {
+		return (salarioBruto * INSS) + (salarioBruto * IRPF);
+	}
+
+	static double calcularComissao (double vendas) {
+		double bonus = 0;
+
+		if (vendas > 20000) {
+			bonus = vendas * .05;
+		} else if (vendas > 15000) {
+			bonus = vendas * .03;
+		} else if (vendas > 10000) {
+			bonus = vendas * .01;
+		} else if (vendas < 10000) {
+			bonus = 0;
+		}
+		return bonus;
+	}
 }
