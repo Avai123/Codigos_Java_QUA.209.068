@@ -2,6 +2,7 @@ package projeto.atividade02;
 
 import java.util.Scanner;
 
+
 public class Program {
 
 	public static void main(String[] args) {
@@ -22,7 +23,7 @@ public class Program {
 		usuario1.anoNascimento = sc.nextInt();
 
 		System.out.println(usuario1.obterIdade());
-
+		sc.close();
 	}
 
 }
