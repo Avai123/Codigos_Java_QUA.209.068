@@ -6,7 +6,6 @@ public class Atividadetelevisor {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		
 		/*
 		 * Criar um programa para simular um controle remoto, na classe televisor terão
 		 * so atributos: 1.canal 2.volume 3.ligado/desligado
@@ -21,10 +20,10 @@ public class Atividadetelevisor {
 		 */
 
 		Televisor tv = new Televisor();
-		
+
 		tv.mostrarStaus();
 		tv.ligarTelevisor();
 		tv.mostrarStaus();
-		
-		
-	}}
+
+	}
+}
