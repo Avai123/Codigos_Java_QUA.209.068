@@ -1,12 +1,12 @@
-package Program;
+package principal;
 
 import java.util.Scanner;
 
-import entities.Carro;
+import entities.AtividadeCarro;
 
 //1) crie um programa que receba os dados de um carro com os seguintes atributos: modelo, ano, cor, motor, cambio e velocidade e os métodos para aumentar e diminuir a velocidade; use scanner
 
-public class ProgramCarro {
+public class ProgramAtividadeCarro {
 
 	private static String velocidade;
 
@@ -15,7 +15,7 @@ public class ProgramCarro {
 
 		Scanner sc = new Scanner(System.in);
 
-		Carro carro = new Carro();
+		AtividadeCarro carro = new AtividadeCarro();
 
 		System.out.print("Qual o carro: ");
 		carro.setNome(sc.next());

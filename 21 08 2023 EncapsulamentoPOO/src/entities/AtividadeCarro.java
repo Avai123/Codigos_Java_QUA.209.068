@@ -1,6 +1,6 @@
 package entities;
 
-public class Carro {
+public class AtividadeCarro {
 
 	private String nome;
 	private String modelo;

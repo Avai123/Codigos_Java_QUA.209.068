@@ -1,6 +1,6 @@
 package entities;
 
-public class Estoque {
+public class AtividadeEstoque {
 
 	private String nomeProduto;
 	private int quantidade;

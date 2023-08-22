@@ -1,10 +1,10 @@
-package Program;
+package principal;
 
 import java.util.Scanner;
 
-import entities.Cadastro;
+import entities.AtividadeCadastro;
 
-public class ProgramCadastro {
+public class ProgramAtividadeCadastro {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -16,7 +16,7 @@ public class ProgramCadastro {
 
 		Scanner sc = new Scanner(System.in);
 
-		Cadastro cadastro = new Cadastro();
+		AtividadeCadastro cadastro = new AtividadeCadastro();
 
 		System.out.print("Digite o seu nome: ");
 		cadastro.setNome(sc.nextLine());

@@ -1,6 +1,6 @@
 package entities;
 
-public class Cadastro {
+public class AtividadeCadastro {
 
 	private String nome;
 	private String email;
@@ -22,20 +22,15 @@ public class Cadastro {
 		this.email = email;
 	}
 
-	public String getSenha() {
-		return senha;
-	}
-
 	public void setSenha(String senha) {
 		this.senha = senha;
 	}
 
 	public void obterDados() {
 		System.out.println("************DADOS CADASTRO************");
-		System.out.println("Nome: " + nome);
-		System.out.println("Email: " + email);
-		
-	
+		System.out.println("Nome usuário: " + nome);
+		System.out.println("Email usuário: " + email);
+
 	}
-	
+
 }

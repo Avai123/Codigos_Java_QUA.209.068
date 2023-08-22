@@ -1,10 +1,10 @@
-package Program;
+package principal;
 
 import java.util.Scanner;
 
-import entities.Estoque;
+import entities.AtividadeEstoque;
 
-public class ProgramEstoque {
+public class ProgramAtividadeEstoque {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -15,7 +15,7 @@ public class ProgramEstoque {
 
 		Scanner sc = new Scanner(System.in);
 
-		Estoque estoque = new Estoque();
+		AtividadeEstoque estoque = new AtividadeEstoque();
 
 		System.out.print("Digite a quantidade em estoque do produto: ");
 		estoque.setQuantidade(sc.nextInt());
