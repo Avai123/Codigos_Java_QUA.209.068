@@ -13,5 +13,6 @@
     <fullyQualifiedTypeName name="entities.ContaCorrente"/>
     <fullyQualifiedTypeName name="entities.Conta"/>
     <fullyQualifiedTypeName name="entities.ContaPoupanca"/>
+    <fullyQualifiedTypeName name="entties.Funcionarios"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

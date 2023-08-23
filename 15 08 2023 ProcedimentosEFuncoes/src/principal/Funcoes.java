@@ -1,5 +1,8 @@
 package principal;
 
+import java.io.PrintStream;
+import java.util.Scanner;
+
 public class Funcoes {
 
 	public static void main(String[] args) {
@@ -22,12 +25,12 @@ public class Funcoes {
 		int c = 10;
 		int y = 200;
 
-		System.out.println("Nova soma: " + calcular(c, y));
+		System.out.println("Nova soma: " + calcular());
 
 		int a = 50;
 		int b = 150;
 
-		System.out.println("Nova soma: " + calcular(a, b));
+		System.out.println("Nova soma: " + calcular());
 
 	}
 
@@ -40,10 +43,12 @@ public class Funcoes {
 	}
 
 	static int calcular() {
+		Scanner sc = new Scanner(System.in);
 		int x = 10;
-		int y = 5System.out.print("Digite o valor em real:  ");
-		double valor real = sc.nextDouble();
-		return x + y;
+		PrintStream y = System.out.printf("Digite o valor em real:  ");
+		double valorReal = sc.nextDouble();
+		return x;
+
 	}
 
 	// Retornar dois parametros do tipo inteiro
