@@ -5,14 +5,19 @@
     <fullyQualifiedTypeName name="projeto.atividade01cont.Terreno"/>
     <fullyQualifiedTypeName name="projeto.atividade03.Triangulo"/>
     <fullyQualifiedTypeName name="principal.Programa"/>
-    <fullyQualifiedTypeName name="entities.Pessoa"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="entities.Estoque"/>
-    <fullyQualifiedTypeName name="entities.Produto"/>
     <fullyQualifiedTypeName name="entities.Cadastro"/>
     <fullyQualifiedTypeName name="entities.ContaCorrente"/>
     <fullyQualifiedTypeName name="entities.Conta"/>
     <fullyQualifiedTypeName name="entities.ContaPoupanca"/>
     <fullyQualifiedTypeName name="entties.Funcionarios"/>
+    <fullyQualifiedTypeName name="entities.Pessoa"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="entities.Produto"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
