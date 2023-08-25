@@ -12,7 +12,6 @@
     <fullyQualifiedTypeName name="entities.Conta"/>
     <fullyQualifiedTypeName name="entities.ContaPoupanca"/>
     <fullyQualifiedTypeName name="entties.Funcionarios"/>
-    <fullyQualifiedTypeName name="entities.Pessoa"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
@@ -20,4 +19,6 @@
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="entities.Produto"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="entities.Pessoa"/>
+    <fullyQualifiedTypeName name="entities.Funcionario"/>
 </qualifiedTypeNameHistroy>
